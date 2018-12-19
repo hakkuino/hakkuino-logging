@@ -1,0 +1,25 @@
+{
+    "name": "hakkuino-logging",
+    "keywords": "ascii, string, command, parser",
+    "description": "Lib about logging, with filters",
+    "authors":
+    {
+        "name": "Nicolas Marsal",
+        "url": ""
+    },
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/hakkuino/hakkuino-logging"
+    },
+    "extern":
+    {
+        "include": "Logger"
+    },
+    "dependencies" : {
+        "QList": "0.6.7"
+    },
+    "version": "1.0",
+    "frameworks": "arduino",
+    "platforms": "atmelavr"
+}
